@@ -366,7 +366,7 @@ h3{
 }
 
 .bridge_card{    
-    background-image: url(/Images/big_card1.jpg);
+    background-image: url(/Images/Big_card_images/big_card1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,7 +381,7 @@ h3{
 }
 
 .forest_card{    
-    background-image: url(/Images/big_card2.jpg);
+    background-image: url(/Images/Big_card_images/big_card2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
