@@ -1,0 +1,432 @@
+:root{
+    --main_font: Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e5e9eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h3{
+    font-size: 13px;
+}
+
+/* Header style */
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;    
+    background-color: #f6f8f9;
+}
+
+.header_logo{
+    color: #fa6980;
+    font-size: 13px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_menu{
+    display: flex;
+    margin-right: 22px;
+    font-size: 11px;   
+    text-transform: uppercase; 
+}
+
+.nav_menu,a:last-child{
+    margin-right: 20px;
+}
+
+.nav_item a{
+    margin-right: 1.9rem;
+    color: #343638;
+    opacity: 50%; 
+    font-family: Helvetica;
+}
+
+.nav_item a.active {
+    color: #343638;
+    opacity: 100%;
+}
+
+.profile_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Landing Page Style */
+
+.landing_page{
+    height: 600px;
+    width: 100%;
+    display: flex;    
+}
+
+/* Landing Page left Side */
+
+.landing_page_left{
+    height: 100%;
+    width: 840px;
+    background-image: url(/Images/107095774_2836630613289798_2415346801892511436_n.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_side_content{
+    width: 600px;
+    height: 247px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.landing_left_first_title_wrapper{
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+.landing_left_first_title_wrapper::after{
+    content: "";
+    height: 2px;
+    width: 560px;
+    background: white;
+    position: absolute;
+    top: calc(100% - 2px);
+    border-radius: 30px;
+}
+
+.landing_left_first_title{
+    font-weight: bold;
+}
+
+.landing_left_second_title{
+    padding: 40px 0 10px 0;
+    font-weight: bold;
+}
+
+.landing_left_text{
+    width: 560px;
+    padding-bottom: 30px;
+}
+
+.landing_left_button{
+    height: 40px;
+    width: 134px;
+    background-color: #FA6980;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Landing Page right Side Style */
+
+.landing_page_right{
+    height: 100%;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Right Side Content Style */
+
+.right_side_content{    
+    height: 400px;
+    width: 380px;
+}
+
+.landing_right_first_title_wrapper{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.landing_right_first_title_wrapper::after{
+    content: "";
+    height: 2px;
+    width: 380px;
+    background: #ebeded;
+    position: absolute;
+    top: calc(100% - 2px);
+    border-radius: 30px;
+}
+
+.right_first_title{
+    width: 330px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* This style goes there, where is this arrows */
+.landing_arrow_wrappers{
+    display: flex;
+    width: 40px;
+    justify-content: space-between;   
+}
+
+/* Right Side Article Content */
+
+.landing_articles_wrapper{
+    width: 380px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.landing_articles_wrapper article:first-child{
+    margin-bottom: 40px;
+}
+
+.right_first_article{
+    display: flex;
+    flex-direction: column;
+}
+
+.landing_first_article_topic{
+    margin-bottom: 20px;
+    color: #FA6980;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.landing_first_article_title{
+    font-family: var(--main_font);
+    color: #202124;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.landing_first_article_text{
+    margin-bottom: 5px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A6ADB4;
+}
+
+.landing_first_article_time{
+    display: flex;
+    align-items: center;
+}
+
+/* this style goes for all time indicators on web*/
+
+.clock_icon{
+    width: 16px;
+    height: 16px;
+}
+
+.past_tense{
+    font-family: var(--main_font);
+    color: #A6ADB4;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+/* Trending Section Style */
+
+.trending_section{
+    width: 1160px;
+    height: 410px;
+    margin: 40px 140px 50px 140px;   
+}
+
+.trending_section_title_wrapper{
+    padding-bottom: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trending_section_title{
+    font-family: var(--main_font);
+    font-weight: bold;
+}
+
+.trending_cards_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.trending_cards_wrapper, .card:last-child{
+    margin-right: 0%;
+}
+
+.card{
+    width: 360px;
+    height: 360px;
+    border-radius: 10px 10px 0 0;
+    margin-right: 40px;
+}
+
+.card_img{
+    width: 100%;
+    height: 180px;   
+}
+
+.card_container{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.card_container_title{
+    font-family: var(--main_font);
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.card_container_text{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A6ADB4;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.cards_past_tense{
+    display: flex;
+    align-items: center;
+}
+
+
+/* Happening Now Section Style */
+
+.happening_section{
+    height: 950px;
+    width: 1160px;
+    margin: 0 140px 100px 140px;
+    display: flex;
+}
+
+/* Big Cards's Section Style */
+
+.big_cards_container{
+    height: 100%;
+    width: 760px;
+}
+
+
+.big_cards_container_title{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 40px;
+    font-family: var(--main_font);
+    font-weight: bold;
+}
+
+.big_cards_wrapper{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Big Card Style */
+
+#big_card{
+    width: 100%;
+    height: 430px;
+    margin-bottom: 40px;
+}
+
+#big_card:last-child{
+    margin-bottom: 0%;
+}
+
+.bridge_card{    
+    background-image: url(/Images/big_card1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    align-self: auto;
+    font-family: var(--main_font);
+}
+
+.forest_card{    
+    background-image: url(/Images/big_card2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    align-self: auto;
+    font-family: var(--main_font);
+}
+
+.big_card_city_name{
+    margin: 40px 0 0 40px;
+}
+
+.big_card_content{
+    margin: 0 40px 40px 40px;
+       
+}
+
+.big_card_content > h1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.big_card_content > p {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+.big_card_past_tense{
+    display: flex;
+    font-family: var(--main_font);
+}
+
+
+
+
+
+
+
+
