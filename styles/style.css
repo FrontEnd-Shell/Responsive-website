@@ -418,9 +418,15 @@ h3{
 }
 
 
+/* Small cards Section(aside) */
 
+.small_cards_container{
+    width: 360px;
+    height: 900px;
+    margin: 60px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+}
 
-
-
-
+/* Small Card Style */
 
