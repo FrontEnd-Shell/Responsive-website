@@ -476,6 +476,7 @@ main{
     width: 1160px;
     height: 85px;
     margin: 55px 140px 60px 140px;
+    display: flex;
 }
 
 /* Footer Left Side Style */
@@ -520,13 +521,50 @@ main{
     font-weight: bold;
 }
 
+/* Footer Right Side Style */
 
+.footer_right_side_wrapper{
+    margin-left: 220px;
+}
 
+.footer_forms_wrapper{
+    width: 260px;
+    height: 40px;
+    border: 1px solid #CBD0D3;
+    border-radius: 6px;
+    display: flex;
+}
 
+.footer_form{
+    border: none;
+    background-color: #a6adb4;
+    border-radius: 6px;
+    width: 85%;
+    text-indent: 20px;  /* Moves cursor 20px right and also moves placeholder */
+}
 
+.footer_form::placeholder{
+    color: #CBD0D3;
+}
 
+.form_icon_wrapper{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.fomr_icon{
+    width: 16px;
+    height: 16px;
+}
 
+.footer_form_subtext{
+    font-size: 11px;
+    color: #CBD0D3;
+}
 
 
 
