@@ -476,11 +476,49 @@ main{
     width: 1160px;
     height: 85px;
     margin: 55px 140px 60px 140px;
-    background-color: black;
 }
 
 /* Footer Left Side Style */
 
+.footer_left_side_wrapper{
+    height: 100%;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo{
+    font-family: acumin-pro, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+.footer_navigation_wrapper{
+    display: flex;
+    width: 285px;
+}
+
+.nav_column{
+    margin-right: 45px;
+}
+
+.nav_column:last-child{
+    margin-right: 0;
+}
+
+.nav_column_content{
+    display: flex;
+    flex-direction: column;
+    line-height: 22px;
+}
+
+.nav_column_content, li {
+    font-size: 13px;
+    color: #CBD0D3;
+    font-family: var(--main_font);
+    font-weight: bold;
+}
 
 
 
