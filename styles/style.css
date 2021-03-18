@@ -525,6 +525,12 @@ main{
 
 .footer_right_side_wrapper{
     margin-left: 220px;
+    display: flex;
+}
+
+.footer_form_content{
+    display: flex;
+    flex-direction: column;
 }
 
 .footer_forms_wrapper{
@@ -533,6 +539,7 @@ main{
     border: 1px solid #CBD0D3;
     border-radius: 6px;
     display: flex;
+    margin-bottom: 15px;
 }
 
 .footer_form{
@@ -541,6 +548,8 @@ main{
     border-radius: 6px;
     width: 85%;
     text-indent: 20px;  /* Moves cursor 20px right and also moves placeholder */
+    outline: none;
+    caret-color: #CBD0D3; /* Changes cursor color */
 }
 
 .footer_form::placeholder{
@@ -552,8 +561,7 @@ main{
     width: 15%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .fomr_icon{
@@ -564,11 +572,29 @@ main{
 .footer_form_subtext{
     font-size: 11px;
     color: #CBD0D3;
+    font-family: var(--main_font);
 }
 
 
+/* Icon Wrapper */
 
+.footer_social_icons_wrapper{
+    display: flex;
+    margin-left: 140px;
+}
 
+.footer_social_icons_wrapper, img{
+    margin-right: 30px;
+}
+
+.footer_social_icons_wrapper:last-child{
+    margin-right: 0;
+}
+
+.social_icom{
+    width: 16px;
+    height: 16px;
+}
 
 
 
