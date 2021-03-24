@@ -6,6 +6,7 @@
 
 body{
     background-color: #e5e9eb;
+    overflow: hidden;
 }
 
 a {
@@ -30,6 +31,7 @@ main{
 /* Header style */
 .header{
     height: 50px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
