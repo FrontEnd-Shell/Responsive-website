@@ -1,0 +1,84 @@
+/* Table size styles */
+
+@media only screen and (max-width: 1080px) {
+
+    /* Header style */
+    .header{
+        width: 100vw;
+    }
+
+    /* Whole landing page */
+    .landing_page{
+        width: 100vw;
+        height: 745px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Left Side Of Landing Page */
+    .landing_page_left{
+        width: 100vw;
+        height: 400px;
+    }
+
+
+    /* Right Side Of Landing Page */
+    .landing_page_right{
+        width: 100vw;
+        height: 345px;
+    }
+
+    .right_side_content{
+        width: 610px;
+        height: 225px;
+    }
+
+    .landing_right_first_title_wrapper{
+        height: 60px;
+        width: 100%;
+    }
+
+    .right_first_title{
+        width: 100%;
+    }
+
+    .landing_right_first_title_wrapper::after{
+        content: "";
+        height: 2px;
+        width: 100%;
+        background: #ebeded;
+        position: absolute;
+        top: calc(100% - 2px);
+        border-radius: 30px;
+    }
+
+
+    .landing_articles_wrapper{
+        width: 100%;
+        height: 125px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing_articles_wrapper article:first-child{
+        margin-bottom: 0;
+        margin-right: 40px;
+    }
+
+    /* Trending Section Style */
+    .trending_section{
+        width: 610px;
+        height: 415px;
+        margin: 40px 80px 50px 80px; 
+    }
+    
+    .card_2{
+        margin-right: 0;
+    }
+
+    .card_3{
+        display: none;
+    }
+
+}
