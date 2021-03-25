@@ -19,7 +19,11 @@ h3{
 }
 
 main{
-
+    /* when zooming out in browser whole site content stays in middle */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Header style */
